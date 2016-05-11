@@ -141,10 +141,6 @@ TARGET_INIT_VENDOR_LIB := libinit_msm
 TARGET_LIBINIT_DEFINES_FILE := $(PLATFORM_PATH)/init/init_onyx.cpp
 TARGET_UNIFIED_DEVICE := true
 
-# Kernel Toolchain
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-5.3/bin
-KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
-
 # Keymaster
 TARGET_KEYMASTER_WAIT_FOR_QSEE := true
 
